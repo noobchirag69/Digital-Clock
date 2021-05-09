@@ -25,18 +25,6 @@ h1 {
 
 /* -- Media Query -- */
 
-@media only screen and (max-width: 500px) {
-    #clock {
-        font-size: 50px;
-        width: 300px;
-        padding: 10px;
-    }
-
-    h1 {
-        padding: 10px;
-    }
-}
-
 @media only screen and (max-width: 950px) {
     #clock {
         width: 600px;
@@ -49,10 +37,41 @@ h1 {
     }
 }
 
+@media only screen and (max-width: 700px) {
+    #clock {
+        width: 550px;
+        font-size: 80px;
+    }
+}
+
 @media only screen and (max-width: 650px) {
     #clock {
         width: 400px;
         font-size: 70px;
-        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #clock {
+        font-size: 50px;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #clock {
+        font-size: 40px;
+        width: 300px;
+}
+
+@media only screen and (max-width: 350px) {
+    #clock {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    #clock {
+        width: 220px;
     }
 }
