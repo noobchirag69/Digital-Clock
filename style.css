@@ -1,0 +1,24 @@
+* {
+    background: #d9d9d9;
+  }
+  
+#clock {
+    font-size: 150px;
+    width: 900px;
+    text-align: center;
+    border-radius: 15px;
+    background: black;
+    color: white;
+    margin: auto;
+    display: grid;
+}
+  
+p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+  
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
